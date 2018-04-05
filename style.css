@@ -1,0 +1,155 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  
+  color: #384047;
+}
+
+form {
+ font-family: 'Open Sans';
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+div {
+  font-family: 'Open Sans';
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1 {
+	font-family: 'Open Sans';
+	color: black;
+	text-align: center;
+	font-size: 36px;
+	margin: 20px 0 30px 0;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 20px 0 30px 0;
+  text-align: center;
+  color: #9DC970;
+}
+
+h3 {
+  font-size: 26px;
+  font-style: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h4 {
+  font-size: 14px;
+  font-style: bold;
+  padding-left: 5px;
+ }
+ 
+h5 {
+  font-size: 14px;
+  text-decoration: underline;
+  padding-left: 5px;
+ }
+
+h6 {
+
+	font-size: 12px;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+p {
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+
+input,
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: 40px;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+textarea {
+
+	 height: 80px;
+}
+
+
+select {
+  padding: 6px;
+  border-radius: 2px;
+}
+
+input[type="button"],
+button {
+  padding: 10px 30px 10px 30px;
+  color: #FFF;
+  background-color: #9DC970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  border: 1px solid #9DC970;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.number {
+  background-color: #9DC970;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+

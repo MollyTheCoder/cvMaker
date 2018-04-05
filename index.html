@@ -1,0 +1,134 @@
+<HTML>
+
+<HEAD>
+	<title> Make My CV </title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href='http://fonts.googleapis.com/css?family=Open Sans:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+</HEAD>
+
+<BODY id="body">
+
+
+
+	<form name="myForm" id="form">
+
+		<h2> CV Maker, CV Shaker! </h2>
+    <p> Fill in the form fields and press the Next button. After completing the whole form you can print out your CV! </p> <br />
+
+		<fieldset id="info">
+          
+          <legend> <span class="number">1</span> Your Basic Info  </legend>
+        
+              <label for="name"> Full Name:</label> 
+              <input type="text" id="name" name="user_name" required>
+              
+               <label for="phone"> Phone number:</label>
+              <input type="tel" id="phone" name="phonenumber" required>
+
+              <label for="mail"> Email:</label>
+              <input type="email" id="mail" name="useremail" required>
+
+              <button  value="Next" id="button"> Next </button>
+
+         </fieldset>
+
+
+
+
+         <fieldset id="jobs">
+         	
+         	<legend> <span class="number">2</span> Professional Experience  </legend>
+
+         	  <label for="title"> Job Title:</label> 
+              <input type="text" id="title" name="jobtitle">
+
+
+              <label for="company"> Company Name:</label> 
+              <input type="text" id="company" name="companyname">
+
+              <label for="start"> Start Date:</label> 
+              <input type="text" id="start" name="startdate">
+
+              <label for="end"> End Date:</label> 
+              <input type="text" id="end" name="enddate" value="present">
+
+              <label for="description"> Job Description:</label>
+               <textarea id="description" name="jobdescription"></textarea>  <br>
+
+               <!-- <button  value="Next" id="button"> Next </button> -->
+            </fieldset>
+
+            <fieldset id="education">
+         	
+         	<legend> <span class="number"> 3 </span> Education  </legend>
+
+         	  <select id="schooltype" name="typeofschool">
+                    <option value="High School">High School</option>
+                     <option value="University"> University </option>
+                     <option value="Masters Degree"> Masters Degree</option>
+                     <option value="PHD"> PHD </option>
+                      
+                </select>
+
+
+              <label for="school"> School Name:</label> 
+              <input type="text" id="school" name="schoolname">
+
+              <label for="startd"> Start Date:</label> 
+              <input type="text" id="startd" name="startdateschool">
+
+              <label for="endd"> End Date:</label> 
+              <input type="text" id="endd" name="enddateschool" > <br>
+
+             
+            </fieldset>
+              
+         <fieldset id='skills'>
+
+         	<legend> <span class="number"> 4 </span> Skills  </legend>
+
+         	  <label for="language"> Language:</label> 
+              <input type="text" id="language" name="languageskills"> 
+
+            <select id="level" name="languagelevel">
+                    <option value="Beginner">Beginner</option>
+                     <option value="Intermediate">Intermediate</option>
+                     <option value="Fluent">Fluent</option>                      
+               </select> <br>
+
+               <h6 id="addnewL"> *Add New Language </h6>
+
+              <label for="computer"> Computer:</label> 
+              <input type="text" id="computer" name="computerskills">
+
+                  <select id="level" name="computerlevel">
+                    <option value="Beginner">Beginner</option>
+                     <option value="Intermediate">Intermediate</option>
+                     <option value="Fluent">Fluent</option>                      
+               </select> <br>
+
+                <h6 id="addnewCo"> *Add New Computer Skill </h6>
+
+              <label for="certificates"> Certificates:</label> 
+              <input type="text" id="certificates" name="certificates">
+
+               <h6 id="addnewCe"> *Add New Certificate </h6>
+
+              <label for="other"> Other Skills / Hobbies:</label>
+               <textarea id="other" name="otherskills"></textarea>  	
+         </fieldset>
+
+          <input TYPE="BUTTON" VALUE="Make My CV!" id="submit" onClick="getData();">
+          <!-- <button type="reset"  value="Reset"> Reset the form.</button> -->
+	</form>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.debug.js" integrity="sha384-CchuzHs077vGtfhGYl9Qtc7Vx64rXBXdIAZIPbItbNyWIRTdG0oYAqki3Ry13Yzu" crossorigin="anonymous"></script>
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="constructors.js"></script>
+
+
+</BODY>
+</HTML>
+
+<!-- onClick="getData();" -->
